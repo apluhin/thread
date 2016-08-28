@@ -11,9 +11,6 @@ public class ExecutorManagerImpl implements ExecutorManager {
 
     ExecutorService executorService = Executors.newCachedThreadPool();
 
-
-
-
     @Override
     public Context execute(Runnable callback, Runnable... tasks) {
 

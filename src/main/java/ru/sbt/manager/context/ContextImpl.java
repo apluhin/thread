@@ -41,7 +41,6 @@ public class ContextImpl implements Context {
 
     @Override
     public void interrupt() {
-
         finishExecute();
     }
 
