@@ -1,0 +1,13 @@
+package ru.sbt.manager.context;
+
+public interface Context {
+    int getCompletedTaskCount();
+
+    int getFailedTaskCount();
+
+    int getInterruptedTaskCount();
+
+    void interrupt();
+
+    boolean isFinished();
+}
